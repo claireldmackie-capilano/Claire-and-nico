@@ -1,0 +1,106 @@
+
+
+body {
+    background-color:#f4f4f4;
+    font-size:18pt;
+    .css-selector {
+        font-family: "Hina Mincho, Inter, helvetica";
+        }
+}
+
+
+h1, h2, h3, h4, h5,p a{
+    margin-top:0;
+}
+p{
+    font-size:1rem;
+
+}
+
+h1 {
+    font-weight: normal;
+    font-size:18rem;
+    color:#323BDF
+}
+
+h2 {
+
+}
+
+h3 {
+
+
+}
+
+h4{
+
+
+}
+
+h5{
+
+}
+
+img{
+    height:auto;
+    max-width:100%;
+}
+
+
+/* ------ Header + Navigation Styles ------ */
+
+
+header {
+
+}
+
+   
+header nav{
+
+
+}
+
+
+header h4{
+
+}
+
+
+nav a{
+    text-decoration: none;  /* Removes underline */
+    color: inherit;
+    
+
+}
+
+nav a:hover{
+
+}
+
+a {
+    text-decoration: none;
+}
+  
+
+/* ------ hero section styling ------ */
+
+.hero-area {
+    max-height:80vh;
+    height:60vh;
+    width:100%;
+
+    position: relative;
+
+  }
+
+  
+
+
+/* ------ Footer Styling ------ */
+
+
+  
+
+
+
+
