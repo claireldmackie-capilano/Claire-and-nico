@@ -1,6 +1,9 @@
+
+
 body {
     background-color: #f4f4f4;
     font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
 }
 
 .css-selector {
@@ -9,15 +12,17 @@ body {
 
 h1, h2, h3, h4, h5, p, a {
     margin-top: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
     font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
     font-weight: normal;
-    font-size: 18rem;
+    font-size: 20rem;
     color: #323BDF;
 }
 
@@ -60,15 +65,15 @@ a {
     width: 100%;
     height: 100vh; 
 
-    font-family: 'inter'
+    font-family: 'Roboto'
 }
 
 .hero-area img {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh; 
-    height: 100%;
+    height: 100%; 
+    width: 200vh;
     object-fit: cover; /* makes image cover area without stretching */
     z-index: 1;
     filter: brightness(60%); 
@@ -84,7 +89,7 @@ a {
 }
 
 .hero-title {
-  font-size: 36px;
+  font-size: 4rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -114,6 +119,120 @@ header h4 {
     display: flex;
     align-items: center;
 }
+
+
+
+
+/* ------ Homepage-section-1 Styling ------ */
+
+
+.homepage-section-1 {
+    background-color: #f9f9f9;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .homepage-section-1 h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .homepage-section-1 p {
+    max-width: 700px;
+    margin: 0 auto 3rem auto;
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Statistics layout */
+  .homepage-section-1 .statistic {
+    display: inline-block;
+    margin: 0 2rem;
+    padding: 1rem;
+  }
+  
+  .homepage-section-1 .statistic h1 {
+    font-size: 2.5rem;
+    color: #222;
+    margin: 0;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .homepage-section-1 .statistic h4 {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: #666;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+
+
+
+/* ------ Homepage Section 2 Styling ------ */
+
+
+  .homepage-section-2 {
+    background-color: #ffffff;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .homepage-section-2 h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .homepage-section-2 p {
+    max-width: 700px;
+    margin: 0 auto 3rem auto;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Card container */
+  .homepage-section-2 .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  /* Individual card */
+  .homepage-section-2 .card {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 300px;
+    flex: 1 1 250px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .homepage-section-2 .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .homepage-section-2 .card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .homepage-section-2 .card p {
+    font-size: 0.95rem;
+    color: #444;
+  }
+
 
 /* ------ Footer Section Styling ------ */
 
