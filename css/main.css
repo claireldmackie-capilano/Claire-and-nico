@@ -80,3 +80,88 @@ header h4 {
     display: flex;
     align-items: center;
 }
+
+/* ------ Footer Section Styling ------ */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #101828;
+    color: white;
+    padding: 40px;
+    font-family: 'Hina Mincho', serif;
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .footer-left h4 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .footer-left img {
+    width: 20px;
+    height: 20px;
+    
+  }
+  .social-icons{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 20px;
+
+   
+  }
+  
+  .footer-right {
+    display: flex;
+    flex-direction: row;
+
+    gap: 30px;
+  }
+  
+  .contact {
+    font-size: 14px;
+    flex-direction:column;
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer-right nav {
+    margin-top: 10px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .footer-right nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-right nav a:hover {
+    text-decoration: underline;
+  }
+  
+  footer hr {
+    width: 100%;
+
+    margin-top: 30px;
+   
+  }
+  
+  footer p {
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #ccc;
+  }
