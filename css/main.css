@@ -243,39 +243,16 @@ header h4 {
 
 
 
-  .homepage-section-3 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+.homepage-section-3 {
     background-color: #eef3f7;
     padding: 4rem 2rem;
-    gap: 2rem;
   }
   
-  .homepage-section-3 .left {
-    position: absolute;
-    flex: 1 1 300px;
-  }
-  
-  .homepage-section-3 .left h3 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-  }
-  
-  .homepage-section-3 .right {
-    position: absolute;
-    flex: 1 1 300px;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-  }
-  
-  .homepage-section-3 .right p {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
+  .weather-banner-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
   }
   
   .weather-banner {
@@ -283,18 +260,56 @@ header h4 {
     height: auto;
     display: block;
     object-fit: cover;
+    border-radius: 12px;
   }
   
-  /* Weather icons side by side */
-  .weather-info {
-    display: inline-block;
-    margin-right: 1rem;
+  /* Overlay container for text */
+  .weather-banner-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background: rgba(0, 0, 0, 0.3); /* optional: helps text contrast */
+  }
+  
+  /* Headline styling */
+  .weather-banner-text .left h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  /* Paragraph styling */
+  .weather-banner-text .right {
+    max-width: 500px;
+  }
+  
+  .weather-banner-text .right p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  /* Icons */
+  .weather-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
   }
   
   .weather-info img {
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 42px;
   }
+  
+
 
 /* ------ Footer Section Styling ------ */
 
