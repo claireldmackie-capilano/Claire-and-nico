@@ -252,7 +252,7 @@ header h4 {
     position: relative;
     width: 100%;
     overflow: hidden;
-    border-radius: 12px;
+
   }
   
   .weather-banner {
@@ -260,7 +260,6 @@ header h4 {
     height: auto;
     display: block;
     object-fit: cover;
-    border-radius: 12px;
   }
   
   /* Overlay container for text */
