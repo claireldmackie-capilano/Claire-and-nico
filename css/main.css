@@ -23,7 +23,7 @@ p {
 h1 {
     font-weight: normal;
     font-size: 20rem;
-    color: #323BDF;
+    color: black;
 }
 
 img {
@@ -197,6 +197,9 @@ header h4 {
     line-height: 1.6;
     font-family: 'Roboto', sans-serif;
   }
+
+
+
   
   /* Card container */
   .homepage-section-2 .cards {
@@ -233,6 +236,63 @@ header h4 {
     color: #444;
   }
 
+
+
+/* ------ Homepage Section 3 Styling ------ */
+
+
+
+  .homepage-section-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eef3f7;
+    padding: 4rem 2rem;
+    gap: 2rem;
+  }
+  
+  .homepage-section-3 .left {
+    flex: 1 1 300px;
+  }
+  
+  .homepage-section-3 .left h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+  }
+  
+  .homepage-section-3 .right {
+    flex: 1 1 300px;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+  }
+  
+  .homepage-section-3 .right p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .weather-banner {
+    margin-bottom: 2rem;
+    height: 100%; 
+    width: 200vh;
+    object-fit: cover; 
+    object-fit: cover;
+  }
+  
+  /* Weather icons side by side */
+  .weather-info {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  .weather-info img {
+    width: 40px;
+    height: 40px;
+  }
 
 /* ------ Footer Section Styling ------ */
 
