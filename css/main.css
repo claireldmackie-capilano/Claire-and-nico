@@ -22,8 +22,9 @@ p {
 
 h1 {
     font-weight: normal;
-    font-size: 20rem;
+    font-size: 40px;
     color: black;
+    font-weight: 700;
 }
 
 img {
