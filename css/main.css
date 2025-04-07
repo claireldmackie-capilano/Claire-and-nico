@@ -22,14 +22,8 @@ p {
 
 h1 {
     font-weight: normal;
-<<<<<<< HEAD
     font-size: 20rem;
     color: black;
-=======
-    font-size: 40px;
-    color: black;
-    font-weight: 700;
->>>>>>> origin/main
 }
 
 img {
@@ -259,6 +253,7 @@ header h4 {
   }
   
   .homepage-section-3 .left {
+    position: absolute;
     flex: 1 1 300px;
   }
   
@@ -266,13 +261,14 @@ header h4 {
     font-size: 1.8rem;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
-    color: #222;
+    color: white;
   }
   
   .homepage-section-3 .right {
+    position: absolute;
     flex: 1 1 300px;
     font-family: 'Roboto', sans-serif;
-    color: #444;
+    color: white;
   }
   
   .homepage-section-3 .right p {
@@ -282,10 +278,9 @@ header h4 {
   }
   
   .weather-banner {
-    margin-bottom: 2rem;
-    height: 100%; 
-    width: 200vh;
-    object-fit: cover; 
+    width: 100%;
+    height: auto;
+    display: block;
     object-fit: cover;
   }
   
@@ -296,8 +291,8 @@ header h4 {
   }
   
   .weather-info img {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
   }
 
 /* ------ Footer Section Styling ------ */
