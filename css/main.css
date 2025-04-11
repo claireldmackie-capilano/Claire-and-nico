@@ -181,62 +181,37 @@ header h4 {
   .homepage-section-2 {
     background-color: #ffffff;
     padding: 4rem 2rem;
-    text-align: center;
+    text-align: left;
+    display:flex;
+    flex-direction:row;
+    gap:10rem;
+
   }
   
-  .homepage-section-2 h3 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  .homepage-section-2 h2 {
+    font-size: 2.5rem;
+  
+    margin-left:3rem;
     font-family: 'Roboto', sans-serif;
   }
   
   .homepage-section-2 p {
-    max-width: 700px;
+    max-width: 600px;
     margin: 0 auto 3rem auto;
     font-size: 1rem;
     color: #555;
     line-height: 1.6;
     font-family: 'Roboto', sans-serif;
+    text-align: left;
   }
 
-
-
-  
-  /* Card container */
-  .homepage-section-2 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-  }
-  
-  /* Individual card */
-  .homepage-section-2 .card {
-    background-color: #f0f0f0;
-    padding: 2rem;
-    border-radius: 12px;
-    max-width: 300px;
-    flex: 1 1 250px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    transition: transform 0.2s ease;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .homepage-section-2 .card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .homepage-section-2 .card h4 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-  }
-  
-  .homepage-section-2 .card p {
-    font-size: 0.95rem;
-    color: #444;
+  .homepage-section-2 left{
+    display:flex;
+    justify-content:center;
   }
 
+  
+  
 
 
 /* ------ Homepage Section 3 Styling ------ */
@@ -316,8 +291,8 @@ header h4 {
     flex: 0 0 50%;
     display: flex;
     flex-direction: column;
-    margin-right:4rem;
-    gap: 1rem;
+    margin-right:6rem;
+    gap: 4rem;
   }
   
   /* Info cards */
@@ -343,7 +318,7 @@ header h4 {
   .weather-info p {
     font-size: .75rem;
     line-height: 1.5;
-    margin: 0;
+    margin-right: 1rem;
   }
 
   .weather-icons{
@@ -352,7 +327,30 @@ header h4 {
   }
 
 
+
+
+/* ------ Section 4 Styling(Events & News) ------ */
+.homepage-section-4{
+  display:flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  margin:2rem;
+  gap:2rem;
+
+}
+
+.homepage-section-4 h3{
+  font-size:2rem;
+
+}
   
+
+
+
+
+
+
 
 
 /* ------ Footer Section Styling ------ */
@@ -361,7 +359,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #101828;
+    background-color: #102633;
     color: white;
     padding: 40px;
     font-family: 'Hina Mincho', serif;
