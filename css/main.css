@@ -374,6 +374,8 @@ header h4 {
 }
 
 .button p{
+
+  color: black;
   margin-top:1rem;
   display: flex;
   align-items: center;
@@ -382,8 +384,8 @@ header h4 {
 }
   
 .button:hover{
-background-color: black;
-  color: white;
+  background-color: black;
+  color:white;
 }
 
 
