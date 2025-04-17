@@ -397,6 +397,13 @@ header h4 {
 }
 
 
+/* ------ First Aid Page ------ */
+.essentials-right{
+    display:flex;
+    justify-content: flex-end;
+}
+
+
 
 
 
