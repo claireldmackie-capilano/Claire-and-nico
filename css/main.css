@@ -397,13 +397,6 @@ header h4 {
 }
 
 
-/* ------ First Aid Page ------ */
-.essentials-right{
-    display:flex;
-    justify-content: flex-end;
-}
-
-
 
 
 
@@ -536,3 +529,13 @@ footer {
           width: 100%;
           overflow: hidden;
         }}
+
+/* ------ Backcountry ------ */
+
+.backcountry-section {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: sans-serif;
+  color: #111;
+}
