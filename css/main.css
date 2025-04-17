@@ -356,7 +356,7 @@ header h4 {
 }
 
 .news img{
-  width:50rem;
+  width:40rem;
 
 }
 
@@ -517,7 +517,7 @@ footer {
       .news{
         display:flex;
         flex-direction: row;
-        gap:10rem;
+        gap:6rem;
       }}
 
       @media (min-width: 998px){
