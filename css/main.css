@@ -354,6 +354,7 @@ header h4 {
 .news{
   display:flex;
   flex-direction: column;
+  margin-right:6rem;
 
 }
 
