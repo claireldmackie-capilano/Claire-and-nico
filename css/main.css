@@ -477,3 +477,62 @@ footer {
     margin-top: 10px;
     color: #ccc;
   }
+
+  /* ------ Events & News ------ */
+.news-updates{
+  display:flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  margin:2rem;
+  gap:2rem;
+  margin-top:6rem;
+
+}
+
+.news-updates h3{
+  font-size:2rem;
+
+}
+
+.news{
+  display:flex;
+  flex-direction: row;
+  gap:10rem;
+}
+
+.news img{
+  width:50rem;
+
+}
+
+.button{
+  width:4rem;
+  padding: 0rem 1.25rem;
+  border: 1px solid black;
+  border-radius: 999px; /* pill shape */
+  background-color: transparent;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 4rem;
+  margin-left:2rem;
+
+
+}
+
+.button p{
+
+  color: black;
+  margin-top:1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+  
+.button:hover{
+  background-color: black;
+  color:white;
+}
