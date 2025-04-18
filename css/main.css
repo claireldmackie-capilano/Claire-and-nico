@@ -433,6 +433,11 @@ a :hover {
 
 }
 
+.stats{
+  display:flex;
+  flex-direction:row;
+}
+
 /* ------ Footer Section Styling ------ */
 
 footer {
