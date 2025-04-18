@@ -394,6 +394,12 @@ header h4 {
   color: #ccc;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+
 /* ------ First Aid Page------ */
 
 .essentials img{
@@ -420,6 +426,7 @@ header h4 {
 
 }
 
+<<<<<<< HEAD
 .stats{
   display:flex;
   flex-direction:row;
@@ -430,6 +437,8 @@ header h4 {
 
 
 
+=======
+>>>>>>> origin/main
 /* ------ Footer Section Styling ------ */
 
 footer {
