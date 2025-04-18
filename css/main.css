@@ -396,20 +396,12 @@ header h4 {
 
 /* ------ First Aid Page------ */
 
-.essentials-right{
-
-}
-
 .essentials img{
   width:30vw;
 }
 
 .essential-text{
   max-width:30rem;
-}
-
-.essentials-left{
-
 }
 
 
@@ -613,4 +605,22 @@ footer {
 .hero-article h1 {
 text-align: center;
 color: #ffffff;
+}
+
+/* ------ Avalanche Risk Hero ------ */
+
+.avalanche-risk-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem;
+  background-color: white;
+}
+
+.avalanche-risk-hero .left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  max-width: 1200px;
+  width: 100%;
 }
