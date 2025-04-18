@@ -398,6 +398,26 @@ header h4 {
 
 
 
+.essentials-right{
+  display:flex;
+  flex-direction:row-reverse;
+  align-items:center;
+}
+
+.essentials img{
+  width:30vw;
+}
+
+.essential-text{
+  max-width:30rem;
+}
+
+.essentials-left{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  margin-bottom:-6rem;
+}
 
 
 
