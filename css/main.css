@@ -394,6 +394,12 @@ header h4 {
   color: #ccc;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+
 /* ------ First Aid Page------ */
 
 .essentials img{
@@ -417,12 +423,6 @@ header h4 {
 
 }
 
-
-<<<<<<< Updated upstream
-=======
-
-
->>>>>>> Stashed changes
 /* ------ Footer Section Styling ------ */
 
 footer {
