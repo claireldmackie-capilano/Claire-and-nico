@@ -537,5 +537,21 @@ footer {
   margin: 0 auto;
   padding: 40px 20px;
   font-family: sans-serif;
-  color: #111;
+  color: #000000;
+}
+
+.backcountry-section img {
+  max-width: 100%;
+  height: auto;
+  margin: 2rem 0;
+}
+
+.backcountry-section blockquote {
+  font-style: italic;
+  font-weight: lighter;
+  margin: 2rem 0;
+}
+
+.backcountry-section hr {
+  margin-top: 3rem;
 }
