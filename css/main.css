@@ -405,24 +405,31 @@ header h4 {
 }
 /* ------ Avalanche Risk Page ------ */
 
-.weather-patterns{
+.weather-pattern{
   display:flex;
-  flex-direction:row-reverse;
-
+  flex-direction:row;
+  gap:2rem;
 }
 
 .left{
   display:flex;
   flex-direction:column;
+  max-width:50%;
+  margin-left:6rem;
+  margin-top:12rem;
 
 }
 
+.stats{
+  display:flex;
+  flex-direction:row;
 
-<<<<<<< Updated upstream
-=======
+  max-width:60rem;
+}
 
 
->>>>>>> Stashed changes
+
+
 /* ------ Footer Section Styling ------ */
 
 footer {
