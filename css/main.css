@@ -413,19 +413,18 @@ a {
 
 .weather-pattern{
   display:flex;
-  flex-direction:row;
-  gap:2rem;
+  flex-direction:column;
 }
 
 .weather-pattern img{
   margin-right:4rem;
 }
-weather-pattern .left{
+.weather-pattern-left{
   display:flex;
   flex-direction:column;
   max-width:50%;
-  margin-left:6rem;
-  margin-top:12rem;
+  margin-left:4rem;
+  margin-top:4rem;
 
 }
 
@@ -587,6 +586,12 @@ footer {
           flex-direction:row;
           align-items:center;
           margin-bottom:-6rem;
+        }}
+        @media (min-width: 998px){
+        .weather-pattern{
+          display:flex;
+          flex-direction:row;
+          gap:2rem;
         }}
 
 /* ------ Paragraph ------ */
