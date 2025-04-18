@@ -403,7 +403,26 @@ header h4 {
 .essential-text{
   max-width:30rem;
 }
+/* ------ Avalanche Risk Page ------ */
 
+.weather-patterns{
+  display:flex;
+  flex-direction:row-reverse;
+
+}
+
+.left{
+  display:flex;
+  flex-direction:column;
+
+}
+
+
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 /* ------ Footer Section Styling ------ */
 
 footer {
