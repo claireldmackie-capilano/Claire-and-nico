@@ -394,12 +394,10 @@ header h4 {
   color: #ccc;
 }
 
-
+/* ------ First Aid Page------ */
 
 .essentials-right{
-  display:flex;
-  flex-direction:row-reverse;
-  align-items:center;
+
 }
 
 .essentials img{
@@ -411,10 +409,7 @@ header h4 {
 }
 
 .essentials-left{
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  margin-bottom:-6rem;
+
 }
 
 
@@ -545,6 +540,27 @@ footer {
         position: relative;
           width: 100%;
           overflow: hidden;
+        }}
+        @media (min-width: 998px){
+        .essentials-right{
+          display:flex;
+          flex-direction:row-reverse;
+          align-items:center;
+        }}
+        @media (min-width: 998px){
+        .essentials img{
+          width:30vw;
+        }}
+        @media (min-width: 998px){
+        .essential-text{
+          max-width:30rem;
+        }}
+        @media (min-width: 998px){
+        .essentials-left{
+          display:flex;
+          flex-direction:row;
+          align-items:center;
+          margin-bottom:-6rem;
         }}
 
 /* ------ Paragraph ------ */
