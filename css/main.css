@@ -50,6 +50,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    color: #EF6A3C;
 }
 
 nav a {
@@ -388,7 +389,6 @@ header h4 {
 }
   
 
-
 .button:hover{
   background-color: #666;
   color: #ccc;
@@ -397,6 +397,11 @@ header h4 {
 a {
   text-decoration: none;
   color: #000000;
+}
+
+a :hover {
+  text-decoration: underline;
+  color: #EF6A3C;
 }
 
 
@@ -428,16 +433,6 @@ weather-pattern .left{
   margin-top:12rem;
 
 }
-
-.stats{
-  display:flex;
-  flex-direction:row;
-
-  max-width:60rem;
-}
-
-
-
 
 /* ------ Footer Section Styling ------ */
 
