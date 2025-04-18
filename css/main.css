@@ -417,7 +417,10 @@ a {
   gap:2rem;
 }
 
-.left{
+.weather-pattern img{
+  margin-right:4rem;
+}
+weather-pattern .left{
   display:flex;
   flex-direction:column;
   max-width:50%;
